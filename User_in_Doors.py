@@ -35,7 +35,7 @@ def chbasestb():
     db_host = '172.25.7.33'
     db_name = 'NextAccessAll'
     db_user = 'sa'
-    db_password = 'Admin25112012'
+    db_password = 'Admin'
     STBLabel.config(bg="#00cc00")
     try:
         connection = pypyodbc.connect(
